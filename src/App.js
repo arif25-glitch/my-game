@@ -1,24 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
+import Car from './Car';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Dalam produksi Arif Nur
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+  const headerStyle = {
+    textTransform: "uppercase"
+  };
+
+  const myElement = (
+    <div className='container-fluid shadow p-3 text-center bg-dark text-light'>
+      <h1 style={headerStyle}>login page</h1>
+      
+      {/* <Car color="red" /> */}
     </div>
+  )
+
+  return (
+    myElement
   );
 }
 
