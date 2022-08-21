@@ -10,7 +10,6 @@ function App() {
   const myElement = (
     <div className='container-fluid shadow p-3 text-center bg-dark text-light'>
       <h1 style={headerStyle}>login page</h1>
-      
       {/* <Car color="red" /> */}
     </div>
   )
